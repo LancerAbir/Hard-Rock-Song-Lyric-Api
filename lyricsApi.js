@@ -52,7 +52,7 @@ const findLyric = async (songArtist, songTitle, songMp3) => {
     <!-- song -->
     <div class="text-center mb-3">
         <audio controls>
-            <source src=${songMp3} type="audio/ogg">
+            <source src=${songMp3} type="audio/mpeg">
         </audio>
     </div>
     <pre class="lyric text-white">
